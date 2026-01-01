@@ -1,6 +1,6 @@
 'use client'
 
-import DiceRoller from '@/components/dice'
+import DiceRoller from '@/Dice/dice'
 import React, { Component } from 'react'
 
 const page = () => {
