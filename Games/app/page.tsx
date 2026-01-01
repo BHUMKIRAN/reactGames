@@ -3,6 +3,7 @@
 import Notification from '@/AutoCloseNotification/page'
 import DiceRoller from '@/Dice/dice'
 import Light from '@/roomLightOnOff/page'
+import Todo from '@/toDoList/page'
 import React, { Component } from 'react'
 
 const page = () => {
@@ -12,7 +13,8 @@ const page = () => {
 
      {/* <DiceRoller/> */}
      {/* <Light/> */}
-     <Notification/>
+     {/* <Notification/> */}
+     <Todo/>
     
     </div>
   )
