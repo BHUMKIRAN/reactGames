@@ -1,13 +1,18 @@
 'use client'
 
+import Notification from '@/AutoCloseNotification/page'
 import DiceRoller from '@/Dice/dice'
+import Light from '@/roomLightOnOff/page'
 import React, { Component } from 'react'
 
 const page = () => {
   return (
-    <div>
+    <div className='flex justify-center items-center bg-gradient-to-r from-amber-500 via-green-500 to-pink-500
+ h-screen'>
 
-     <DiceRoller/>
+     {/* <DiceRoller/> */}
+     {/* <Light/> */}
+     <Notification/>
     
     </div>
   )
