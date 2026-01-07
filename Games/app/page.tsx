@@ -5,17 +5,21 @@ import DiceRoller from '@/Dice/dice'
 import Light from '@/roomLightOnOff/page'
 import Todo from '@/toDoList/page'
 import React, { Component } from 'react'
+import TicTacToe from '@/tictactoe/page'
+import Calculator from '@/basicCalculator/page'
+import QuizGame from '@/quiz/page'
 
 const page = () => {
   return (
-    <div className='flex justify-center items-center bg-gradient-to-r from-amber-500 via-green-500 to-pink-500
- h-screen'>
+    <div className=''>
 
-     {/* <DiceRoller/> */}
-     {/* <Light/> */}
-     {/* <Notification/> */}
-     <Todo/>
-    
+      {/* <DiceRoller/> */}
+      {/* <Light/> */}
+      {/* <Notification/> */}
+      <Todo/>
+      {/* <TicTacToe/> */}
+      {/* <Calculator/> */}
+      {/* <QuizGame/> */}
     </div>
   )
 }
